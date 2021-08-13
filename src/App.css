@@ -1,0 +1,79 @@
+section {
+  min-height: 550px;
+}
+
+.bg-red {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.cta {
+  background-color: #fff;
+  color: #252934;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.hero .cta {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero > div {
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    height: 550px;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .hero .cta {
+    display: inline;
+  }
+}
+
+.flyers {
+  background-image: url('./images/rect.png');
+  background-repeat: no-repeat;
+  background-position: right 50% bottom -50px;
+  width: 100%;
+  /* background-size: cover; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
