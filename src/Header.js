@@ -4,7 +4,8 @@ import menuIcon from './images/menu.svg';
 import closeIcon from './images/close.svg';
 
 import { useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 function Header() {
   const location = useLocation();
@@ -43,13 +44,13 @@ function Header() {
         </div>
         <nav>
           {navItems.map((i) => (
-            <NavLink
+            <NavHashLink
               key={`nav-${i.hash}`}
               activeClassName={location.hash === i.hash ? 'active-nav' : ''}
               to={i.hash}
             >
               {i.text}
-            </NavLink>
+            </NavHashLink>
           ))}
         </nav>
         <button onClick={openMenu} id="menu-open">
@@ -65,7 +66,7 @@ function Header() {
             <ul>
               {navItems.map((i) => (
                 <li key={`menu-${i.hash}`}>
-                  <NavLink
+                  <NavHashLink
                     onClick={closeMenu}
                     activeClassName={
                       location.hash === i.hash ? 'active-menu' : ''
@@ -73,7 +74,7 @@ function Header() {
                     to={i.hash}
                   >
                     {i.text}
-                  </NavLink>
+                  </NavHashLink>
                 </li>
               ))}
             </ul>
