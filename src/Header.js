@@ -1,7 +1,7 @@
 import './Header.css';
-import logo from './logo.png';
-import menuIcon from './menu.svg';
-import closeIcon from './close.svg';
+import logo from './images/logo.png';
+import menuIcon from './images/menu.svg';
+import closeIcon from './images/close.svg';
 
 import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
