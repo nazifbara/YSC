@@ -64,9 +64,8 @@ function Header() {
             </button>
             <ul>
               {navItems.map((i) => (
-                <li>
+                <li key={`menu-${i.hash}`}>
                   <NavLink
-                    key={`menu-${i.hash}`}
                     onClick={closeMenu}
                     activeClassName={
                       location.hash === i.hash ? 'active-menu' : ''
