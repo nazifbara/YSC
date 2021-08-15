@@ -52,12 +52,7 @@ main > div:not(:first-child):nth-child(even) {
   padding-bottom: 50px;
 }
 
-.services {
-  list-style-type: none;
-  padding: 0;
-}
-
-.services li {
+.list li {
   margin-bottom: 20px;
   border-left: 6px solid #cc0000;
   border-top: 2px solid #252934;

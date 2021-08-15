@@ -106,7 +106,7 @@ function App() {
         <div>
           <section className="container">
             <h2 id="services">Nos services</h2>
-            <ul className="services">
+            <ul className="list">
               <li className="shadow b-radius">
                 Formation en anglais général et communicationnelle
               </li>
@@ -147,6 +147,39 @@ function App() {
             </ul>
           </section>
         </div>
+        <div>
+          <section className="container">
+            <h2 id="programs">Programmes Périodiques</h2>
+            <ol className="list">
+              <li>
+                Camps Anglais des enfants en vacances (1mois)
+                <ul>
+                  <li>Formation en anglais</li>
+                  <li>
+                    Initiation l’entreprenariat Social et Classique des enfants
+                    à la base
+                  </li>
+                  <li>Séminaire sur le changement de la mentalité</li>
+                  <li>Autres formations…</li>
+                </ul>
+              </li>
+              <li>
+                Formation intensif en anglais pour les nouveaux bacheliers en
+                vacances (1mois)
+              </li>
+              <li>
+                Animation des clubs d’Anglais YSC au sein des facultés et écoles
+                de l’UP, d’écoles privé, dans les collèges, dans les écoles
+                primaires (Programme Anglais à la base)
+              </li>
+              <li>
+                Séminaire de formation trimestriel/annuel/Semestriel des coachs
+                de la langue anglaise
+              </li>
+            </ol>
+          </section>
+        </div>
+        <div></div>
       </main>
     </>
   );

@@ -22,6 +22,20 @@ li {
   font-size: 17px;
 }
 
+ul {
+  padding: 0;
+}
+
+ol ul {
+  padding-left: 10px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
 .container {
   padding: 10px 10px;
   max-width: 1000px;
