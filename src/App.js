@@ -48,7 +48,12 @@ function App() {
                 Ici, nous avons une méthode, des experts, pour vous amener à
                 réliser très vite ce rêve.
               </p>
-              <button className="cta">Passez à l’action !</button>
+              <a
+                className="cta"
+                href="https://api.whatsapp.com/send?phone=22951948616&app=facebook&entry_point=page_cta"
+              >
+                Passez à l’action !
+              </a>
             </div>
           </div>
         </div>
