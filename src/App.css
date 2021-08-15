@@ -11,6 +11,10 @@ section img {
   width: 100%;
 }
 
+main {
+  margin-top: 55px;
+}
+
 main > div:first-child {
   background-color: #cc0000;
   color: #fff;
@@ -96,6 +100,12 @@ footer > div {
 
 .card strong {
   color: #93a1c7;
+}
+
+.hash-anchor-stop {
+  position: relative;
+  top: -55px;
+  display: hidden;
 }
 
 @media (min-width: 768px) {

@@ -54,7 +54,8 @@ function App() {
         </div>
         <div>
           <section className="container about">
-            <h2 id="about">Qui sommes-nous?</h2>
+            <span className="hash-anchor-stop" id="about"></span>
+            <h2>Qui sommes-nous?</h2>
             <h3 style={{ marginBottom: '30px' }}>
               Un Laboratoire de langues, de développement personnel et
               changement de la mentalité.
@@ -75,7 +76,8 @@ function App() {
         </div>
         <div>
           <section className="container">
-            <h2 id="why">Pourquoi existons-nous?</h2>
+            <span className="hash-anchor-stop" id="why"></span>
+            <h2>Pourquoi existons-nous?</h2>
             <div>
               <p>
                 <strong>YSC</strong> se veut une nouvelle génération épanouie,
@@ -105,7 +107,8 @@ function App() {
         </div>
         <div>
           <section className="container">
-            <h2 id="services">Nos services</h2>
+            <span className="hash-anchor-stop" id="services"></span>
+            <h2>Nos services</h2>
             <ul className="list">
               <li className="shadow b-radius">
                 Formation en anglais général et communicationnelle
@@ -149,7 +152,8 @@ function App() {
         </div>
         <div>
           <section className="container">
-            <h2 id="programs">Programmes périodiques</h2>
+            <span className="hash-anchor-stop" id="programs"></span>
+            <h2>Programmes périodiques</h2>
             <ol className="list">
               <li>
                 Camps Anglais des enfants en vacances (1mois)
@@ -181,7 +185,8 @@ function App() {
         </div>
         <div>
           <section className="container">
-            <h2 id="pricing">Frais des formations</h2>
+            <span className="hash-anchor-stop" id="pricing"></span>
+            <h2>Frais des formations</h2>
             <div className="pricing">
               <div className="card b-radius shadow">
                 <h3>

@@ -37,25 +37,27 @@ function Header() {
   ];
 
   return (
-    <div className="container">
+    <>
       <header>
-        <div>
-          <img src={logo} className="logo" alt="logo" />
+        <div className="container">
+          <div>
+            <img src={logo} className="logo" alt="logo" />
+          </div>
+          <nav>
+            {navItems.map((i) => (
+              <NavHashLink
+                key={`nav-${i.hash}`}
+                activeClassName={location.hash === i.hash ? 'active-nav' : ''}
+                to={i.hash}
+              >
+                {i.text}
+              </NavHashLink>
+            ))}
+          </nav>
+          <button onClick={openMenu} id="menu-open">
+            <img src={menuIcon} alt="menu icon" />
+          </button>
         </div>
-        <nav>
-          {navItems.map((i) => (
-            <NavHashLink
-              key={`nav-${i.hash}`}
-              activeClassName={location.hash === i.hash ? 'active-nav' : ''}
-              to={i.hash}
-            >
-              {i.text}
-            </NavHashLink>
-          ))}
-        </nav>
-        <button onClick={openMenu} id="menu-open">
-          <img src={menuIcon} alt="menu icon" />
-        </button>
       </header>
       {menuOpen && (
         <div id="overlay">
@@ -81,7 +83,7 @@ function Header() {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
