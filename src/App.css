@@ -5,9 +5,6 @@ section h3 {
 section img {
   width: 100%;
 }
-section p {
-  text-align: justify;
-}
 
 main > div:first-child {
   background-color: #cc0000;
@@ -53,6 +50,20 @@ main > div:not(:first-child):nth-child(even) {
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.services {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 20px;
+  border-left: 6px solid #cc0000;
+  border-top: 2px solid #252934;
+  border-right: 2px solid #252934;
+  border-bottom: 2px solid #252934;
+  padding: 10px;
 }
 
 @media (min-width: 768px) {

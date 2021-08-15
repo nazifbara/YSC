@@ -17,8 +17,9 @@ h3 {
   font-size: 20px;
 }
 
-p {
-  font-size: 18px;
+p,
+li {
+  font-size: 17px;
 }
 
 .container {
@@ -29,6 +30,15 @@ p {
 
 .hidden {
   display: none;
+}
+
+.shadow {
+  box-shadow: 2px 3px 5px #252934;
+}
+
+.b-radius {
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 @media (min-width: 1000px) {
@@ -44,7 +54,8 @@ p {
     font-size: 23px;
   }
 
-  p {
+  p,
+  li {
     font-size: 19px;
   }
 }

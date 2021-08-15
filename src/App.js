@@ -67,7 +67,7 @@ function App() {
                 formations et communication en développement personnel
                 aboutissant à un changement de mentalité.
               </p>
-              <div>
+              <div className="shadow b-radius">
                 <img src={yscGroup} alt="ysc people" />
               </div>
             </div>
@@ -97,10 +97,54 @@ function App() {
                 d’études… nous pensons contribuer au développement personnel et
                 commun de nos populations.{' '}
               </p>
-              <div>
+              <div className="b-radius">
                 <img src={yscGroup} alt="ysc people" />
               </div>
             </div>
+          </section>
+        </div>
+        <div>
+          <section className="container">
+            <h2 id="services">Nos services</h2>
+            <ul className="services">
+              <li className="shadow b-radius">
+                Formation en anglais général et communicationnelle
+              </li>
+              <li className="shadow b-radius">
+                Formation en anglais de spécialité
+              </li>
+              <li className="shadow b-radius">
+                Formation préparatoire aux tests internationaux
+              </li>
+              <li className="shadow b-radius">
+                Formation en traduction et en interprétariat
+              </li>
+              <li className="shadow b-radius">
+                Conférences et séminaires de formations sur le développement
+                intégral et en changement de la mentalité
+              </li>
+              <li className="shadow b-radius">
+                Communication et orientation sur comment postulé aux bourses et
+                ou opportunités en ligne
+              </li>
+              <li className="shadow b-radius">
+                Assistance en rédaction de projet social suivit de sa traduction
+                du français vers l’anglais
+              </li>
+              <li className="shadow b-radius">
+                Abonnement annuel de formation en anglais pour adolescents
+                (Elèves, Ecoliers et ou adolescent)
+              </li>
+              <li className="shadow b-radius">
+                Assistance pour obtention de certificat international de
+                maîtrise des langues internationales
+              </li>
+              <li className="shadow b-radius">
+                Assistance en cours en ligne sur les meilleurs sites de MOOC
+                (Udemy, edX, Coursera, School Online University, Khan Academy,
+                OpenClassrooms, LinkedIn Learning/Lynda.com, Fun MOOC)…{' '}
+              </li>
+            </ul>
           </section>
         </div>
       </main>
