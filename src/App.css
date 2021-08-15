@@ -25,6 +25,18 @@ main > div:not(:first-child):nth-child(even) {
   color: #252934;
 }
 
+footer {
+  text-align: center;
+  background-color: #252934;
+  color: white;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+}
 .cta {
   background-color: #fff;
   color: #252934;

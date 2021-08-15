@@ -245,7 +245,7 @@ function App() {
                     My Self Lab Training: <strong>3000 Fcfa</strong>
                   </li>
                   <li>
-                    My Self Lab TrainingDoc: <strong>2000 Fcfa</strong>
+                    My Self Lab Training Doc: <strong>2000 Fcfa</strong>
                   </li>
                   <li>
                     Anglais de Spécialité: <strong>5000 Fcfa</strong>
@@ -256,6 +256,15 @@ function App() {
           </section>
         </div>
       </main>
+      <footer>
+        <div className="container">
+          <h2>
+            <i className="fas fa-phone-alt"></i> Contactez-nous
+          </h2>
+          <p>+229 64 84 47 20</p>
+          <p>+229 51 94 86 16</p>
+        </div>
+      </footer>
     </>
   );
 }
