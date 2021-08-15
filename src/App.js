@@ -149,7 +149,7 @@ function App() {
         </div>
         <div>
           <section className="container">
-            <h2 id="programs">Programmes Périodiques</h2>
+            <h2 id="programs">Programmes périodiques</h2>
             <ol className="list">
               <li>
                 Camps Anglais des enfants en vacances (1mois)
@@ -179,7 +179,82 @@ function App() {
             </ol>
           </section>
         </div>
-        <div></div>
+        <div>
+          <section className="container">
+            <h2 id="pricing">Frais des formations</h2>
+            <div className="pricing">
+              <div className="card b-radius shadow">
+                <h3>
+                  <i className="fa fa-street-view"></i> Cours en présentiels
+                </h3>
+                <ol>
+                  <li>
+                    Un mois de cours intensif: <strong>20.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Trois mois de cours intensif: <strong>60.000 Fcfa</strong>{' '}
+                  </li>
+                  <li>
+                    Trois mois de cours normal: <strong>40.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Six mois de cours normal: <strong>80.0000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Neuf mois de cours normal: <strong>100.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Un an de cours normal: <strong>120.0000 Fcfa</strong>
+                  </li>
+                </ol>
+              </div>
+              <div className="card b-radius shadow">
+                <h3>
+                  <i className="fa fa-wifi"></i> Cours en ligne
+                </h3>
+                <ol>
+                  <li>
+                    long terme en groupe: <strong>5000f/Mois</strong>
+                  </li>
+                  <li>
+                    Un mois de cours intensif: <strong>30.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Trois mois de cours normal: <strong>50.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Trois mois de cours intensif: <strong>70.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Six mois de cours normal: <strong>90.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Neuf mois de cours normal: <strong>110.000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Un an de cours normal: <strong>130.000 Fcfa</strong>
+                  </li>
+                </ol>
+              </div>
+              <div className="card b-radius shadow">
+                <h3>
+                  <i className="fa fa-tools"></i> Outils de formation
+                </h3>
+                <ol>
+                  <li>
+                    My Self Lab Training: <strong>3000 Fcfa</strong>
+                  </li>
+                  <li>
+                    My Self Lab TrainingDoc: <strong>2000 Fcfa</strong>
+                  </li>
+                  <li>
+                    Anglais de Spécialité: <strong>5000 Fcfa</strong>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
     </>
   );
