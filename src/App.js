@@ -268,11 +268,28 @@ function App() {
       </main>
       <footer>
         <div className="container">
-          <h2>
+          <h3>
             <i className="fas fa-phone-alt"></i> Contactez-nous
-          </h2>
+          </h3>
           <p>+229 64 84 47 20</p>
           <p>+229 51 94 86 16</p>
+          <h3>
+            <i className="fas fa-link"></i> Nos liens
+          </h3>
+          <div>
+            <a href="https://web.facebook.com/Young-Scholars-Center-YSC-106194508327544/?ref=pages_you_manage">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://wa.me/message/ARSSCJVD6QONA1">
+              <i className="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/YscdailyEnglish">
+              <i className="fab fa-telegram"></i>
+            </a>
+            <a href="mailto: youngscholarscenterysc@gmail.com">
+              <i className="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
       </footer>
     </>

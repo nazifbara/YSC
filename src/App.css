@@ -33,17 +33,33 @@ footer {
   text-align: center;
   background-color: #252934;
   color: white;
+  padding: 20px 0;
 }
 
 footer > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 250px;
 }
+
+footer a {
+  color: inherit;
+  transition: color ease 0.3s;
+}
+
+footer a:hover {
+  color: #93a1c7;
+}
+
+footer a i {
+  font-size: 50px;
+  padding: 10px;
+}
+
 .cta {
   background-color: #fff;
   text-decoration: none;
+  text-align: center;
   color: #252934;
   border-radius: 50px;
   padding: 10px 20px 10px 20px;
