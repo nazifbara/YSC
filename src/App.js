@@ -11,6 +11,7 @@ import yscF1 from './images/ysc-f1.png';
 import yscF2 from './images/ysc-f2.png';
 import yscF3 from './images/ysc-f3.png';
 import yscGroup from './images/ysc-group.jpeg';
+import yscClass from './images/ysc-class.jpeg';
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -62,8 +63,9 @@ function App() {
             <span className="hash-anchor-stop" id="about"></span>
             <h2>Qui sommes-nous?</h2>
             <h3 style={{ marginBottom: '30px' }}>
-              Un Laboratoire de langues, de développement personnel et
-              changement de la mentalité.
+              Un centre d'initiation et de renforcement de compétence à la
+              maîtrise de diverses langues internationales, principalement
+              l'anglais.
             </h3>
             <div className="about-content">
               <p>
@@ -105,7 +107,7 @@ function App() {
                 commun de nos populations.{' '}
               </p>
               <div className="b-radius">
-                <img src={yscGroup} alt="ysc people" />
+                <img src={yscClass} alt="ysc people" />
               </div>
             </div>
           </section>
