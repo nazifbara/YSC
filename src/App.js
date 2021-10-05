@@ -43,7 +43,7 @@ function App() {
             </div>
 
             <div>
-              <h1>Vous rêver de parler anglais ?</h1>
+              <h1>Vous rêvez de parler anglais ?</h1>
               <h3>Bienvenu sur notre site web !</h3>
               <p>
                 Ici, nous avons une méthode, des experts, pour vous amener à
