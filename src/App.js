@@ -47,7 +47,7 @@ function App() {
               <h3>Bienvenu sur notre site web !</h3>
               <p>
                 Ici, nous avons une méthode, des experts, pour vous amener à
-                réliser très vite ce rêve.
+                réaliser très vite ce rêve.
               </p>
               <a
                 className="cta"
